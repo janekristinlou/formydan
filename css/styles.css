@@ -1,0 +1,139 @@
+body {
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    margin: 0;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 4em;
+    padding: 120px 0 0 0;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+}
+
+h3 {
+    color: #66BFBF;
+    font-family: 'Lato', sans-serif;
+}
+
+hr {
+    width: 5%;
+    border: dotted rgb(220, 241, 241) 6px;
+    border-bottom: none;
+    margin: 100px auto;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+    font-weight: bold;
+}
+
+.top-container {
+    background-color:  #EAF6F6;
+}
+
+#hearts {
+    width: 20%;
+    padding: 100px 0 50px 0;
+}
+
+.middle-container {
+    margin: 50px 0;
+}
+
+.profile {
+    width: 60%;
+    margin: 100px auto 100px auto;
+}
+
+.skill-row {
+    width: 60%;
+    margin: 100px auto 100px auto;    /*REMEMBER TO ADD THIS TO CENTER*/
+    text-align: left;
+    line-height: 2;
+}
+
+.computer {
+    border-radius: 50%;
+    width: 30%;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    clear: left;
+}
+
+.chillies {
+    width: 30%;
+    float: right;
+    margin: 0 0 0 40px;
+    clear: right;
+}
+
+.clear {
+    clear: left;
+}
+
+#small {
+    font-size: .75em;
+    width: 30%;
+    margin: 10px auto 30px auto;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-link {
+    word-spacing: 2em;
+}
+
+#top-cloud {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+
+#bottom-cloud {
+    position: absolute;
+    left: 50px;
+}
+
+.jane {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .copyright {
+      color: white;
+      font-size: 0.75em;
+  }
